@@ -11,12 +11,10 @@ const Details = ({ postion, company, companylink, time, address, work }) => {
     >
       <LiIcone reference={ref} />
       <motion.div
-      initial ={{ y: 50 }}
+        initial={{ y: 50 }}
         whileInView={{ y: 0 }}
-        transition={{ duration: 0.5,type: "spring"}}
-        
+        transition={{ duration: 0.5, type: "spring" }}
       >
-
         <h3 className="capitalize font-bold text-2xl">
           {postion}&nbsp;
           <a
